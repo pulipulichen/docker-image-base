@@ -17,6 +17,8 @@ REPOSITORY=`cat repository.txt`
 
 IMAGE_NAME="${REPOSITORY}:${SCRIPT_DIR}-${IMAGE_VERSION}"
 
+echo -n "${IMAGE_NAME}" > tag.txt
+
 # echo ${IMAGE_NAME}
 # =======================
 
