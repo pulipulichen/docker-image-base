@@ -1,1 +1,1 @@
-pudding/docker-app
+pudding/docker-image-base
