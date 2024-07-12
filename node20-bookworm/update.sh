@@ -23,11 +23,11 @@ IMAGE_NAME="${REPOSITORY}:${SCRIPT_DIR}-${IMAGE_VERSION}"
 
 echo -n "${IMAGE_NAME}" > tag.txt
 
-# echo ${IMAGE_NAME}
+echo ${IMAGE_NAME}
 # =======================
 
 CONTAINER_NAME=`cat container.txt`
-
+echo ${CONTAINER_NAME}
 # =======================
 
 docker tag ${CONTAINER_NAME} ${IMAGE_NAME}
