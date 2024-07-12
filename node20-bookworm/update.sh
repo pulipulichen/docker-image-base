@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+
 IMAGE_VERSION=$(date '+%Y%m%d.%H%M%S')
 
 SCRIPT_PATH=$(dirname "$0")
@@ -11,6 +13,8 @@ fi
 cd "$SCRIPT_PATH"
 
 echo "${SCRIPT_PATH}"
+./build.sh
+
 SCRIPT_DIR=$(basename "${SCRIPT_PATH%/}")
 
 REPOSITORY=`cat repository.txt`
