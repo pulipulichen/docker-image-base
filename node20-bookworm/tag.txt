@@ -1,1 +1,1 @@
-pudding/docker-image-base:node20-bookworm-20240712.144626
+pudding/docker-image-base:node20-bookworm-20240712.144701
