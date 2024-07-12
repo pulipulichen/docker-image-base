@@ -1,1 +1,1 @@
-node20-bookworm
+node20-bookworm-app
