@@ -1,8 +1,8 @@
-FROM pudding/docker-image-base:puppeteer-python-14-20240713.222028
+FROM pudding/docker-image-base:puppeteer-python-14-20240802.194028
 
-RUN pip install youtube_transcript_api
+RUN pip install youtube_transcript_api==0.6.2
 
-RUN pip install moviepy
+RUN pip install moviepy==1.0.3
 
 # RUN npm link youtube.com
 # RUN npm link ytdl-core
