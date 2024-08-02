@@ -121,6 +121,6 @@ RUN apt-get install -y tor
 
 # 這個會很常壞，所以要放到最後安裝
 # RUN npm link ytdl-core@4.11.5
-RUN pip install pytubefix==6.1.2
+RUN pip install pytubefix==6.8.1
 
 # ----------------

@@ -1,1 +1,1 @@
-pudding/docker-image-base:puppeteer-python-14-20240713.222028
+pudding/docker-image-base:puppeteer-python-14-20240802.194028
